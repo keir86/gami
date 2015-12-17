@@ -14,7 +14,7 @@ go get code.google.com/p/gami
 in your imports
 
     import (
-      gami "code.google.com/p/gami"
+      gami "github.com/keir86/gami"
     )
 ## Login/Logoff to AMI
     c, err := net.Dial("tcp", "asterisk_host:5038")
